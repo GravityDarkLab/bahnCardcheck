@@ -1,0 +1,27 @@
+{
+  "name": "bahncardcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bahnCardCheck.js",
+  "type": "module",
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "check": "node bahnCardCheck.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "jest": "^29.7.0"
+  }
+}
